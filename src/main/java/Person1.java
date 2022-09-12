@@ -1,6 +1,6 @@
 public class Person1 {
-    String name;
-    int alder;
+    private String name;
+    private int alder;
     private double højde;
 
     public Person1 (String name, double højde, int alder) {
@@ -11,5 +11,17 @@ public class Person1 {
 
     public double getHøjde() {
         return højde;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAlder() {
+        return alder;
+    }
+
+    public void setHøjde(double højde) {
+        this.højde = højde;
     }
 }
